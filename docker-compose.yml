@@ -3,6 +3,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    volumes:
+      - ./Data_Transformation:/app/Data_Transformation
     ports:
       - "8000:8000"
       
