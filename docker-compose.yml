@@ -5,6 +5,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./Data_Transformation:/app/Data_Transformation
+      - ./Data_Cleaning:/app/Data_Cleaning
     ports:
       - "8000:8000"
       
